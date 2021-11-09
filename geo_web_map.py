@@ -1,6 +1,15 @@
 import folium
 import pandas
 
+'''
+Representing Geospatial data using folium with Python.
+    
+    Geospatial data:
+        - Volcano Height ('Volcanoes.txt')
+        - Population ('world.json')
+'''
+
+
 volcanoes = pandas.read_csv('Volcanoes.txt')
 lat = list(volcanoes['LAT'])
 lon = list(volcanoes['LON'])

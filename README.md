@@ -1,5 +1,5 @@
-# Geo_webmap
-Volcanoes(USA) &amp; World Population
+# Geospatial data Webmap with Python
+Volcanoes &amp; World Population
 Using folium to display
 
 To run
